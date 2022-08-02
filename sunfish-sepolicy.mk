@@ -1,3 +1,15 @@
+# confirmationui
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/confirmationui_hal
+
+# ramdump
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/ramdump
+
+# twoshay
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/input
+
+# google_battery service
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
+
 PRODUCT_PUBLIC_SEPOLICY_DIRS += device/google/sunfish-sepolicy/public
 PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/sunfish-sepolicy/private
 
